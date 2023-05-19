@@ -1,0 +1,184 @@
+body{ width: 1500px;
+    height: 600px;
+    padding: 10px;
+    border: 1px solid black;
+    margin: auto;
+}
+.wrap{
+    width: 1500px;
+    height: 50px;
+    padding: 10px;
+    border: 1px solid black;
+    margin: auto;
+    background-color: gainsboro;
+}
+.menu-main1{
+    width: 1000px;
+    height: 40px;
+    display: inline;
+    margin: 1px;
+    text-align: center;
+    font-size: 19px;
+    background-color: gainsboro;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    top: 15px;
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position: 10px top;
+}
+.menu-main2{
+    width: 1000px;
+    height: 40px;
+    display: inline;
+    margin: 1px;
+    text-align: center;
+    font-size: 19px;
+    background-color: gainsboro;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    top: 15px;
+}
+.menu-main3{
+    width: 1000px;
+    height: 40px;
+    display: inline;
+    margin: 1px;
+    text-align: center;
+    font-size: 19px;
+    background-color: gainsboro;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    top: 15px;
+}
+.menu-main4{
+    width: 1000px;
+    height: 40px;
+    display: inline;
+    margin: 1px;
+    text-align: center;
+    font-size: 19px;
+    background-color: gainsboro;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    top: 15px;
+}
+.menu-main5{
+    width: 1000px;
+    height: 40px;
+    display: inline;
+    margin: 1px;
+    text-align: center;
+    font-size: 19px;
+    background-color: gainsboro;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    top: 15px;
+}
+.menu-main6{
+    width: 1000px;
+    height: 40px;
+    display: inline;
+    margin: 1px;
+    text-align: center;
+    font-size: 19px;
+    background-color: gainsboro;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    top: 15px;
+}
+.menu-main7{
+    width: 1000px;
+    height: 40px;
+    display: inline;
+    margin: 1px;
+    text-align: center;
+    font-size: 19px;
+    background-color: gainsboro;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    top: 15px;
+}
+.menu-main8{
+    width: 1000px;
+    height: 40px;
+    display: inline;
+    margin: 1px;
+    text-align: center;
+    font-size: 19px;
+    background-color: gainsboro;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    top: 15px;
+}
+.menu-main9{
+    width: 1000px;
+    height: 40px;
+    display: inline;
+    margin: 1px;
+    text-align: center;
+    font-size: 19px;
+    background-color: gainsboro;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    top: 15px;
+}
+
+.text-blok{
+    width: 1000px;
+    height: 500px;
+}
+.text-blok-5{
+    position: absolute;
+    border-right: #080808;
+    right: 250px;
+    top: 110px;
+}
+.text-blok-4{
+    position: absolute;
+    border-right: #080808;
+    right: 500px;
+    top: 110px;
+}
+.text-blok-3{
+    position: absolute;
+    border-right: #080808;
+    right: 790px;
+    top: 110px;
+}
+.text-blok-2{
+    position: absolute;
+    border-right: #080808;
+    right: 1030px;
+    top: 110px;
+}
+.text-blok-1{
+    position: absolute;
+    border-right: #080808;
+    right: 1250px;
+    top: 110px;
+}
+a{
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: white;
+    background-color: red;
+}
+
+
+
+
+
+

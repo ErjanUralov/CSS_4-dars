@@ -1,0 +1,102 @@
+@font-face {
+    font-family: "poppins";
+
+}
+body{
+    font-family: "poppins",sans-serif;
+    font-style: italic;
+}
+.wrap{
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+.main-menu{
+    margin: 5px;
+    padding:5px;
+    border: 1px solid black;
+
+}
+.main-menu-iteam{
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    z-index: 3;
+}
+.main-menu-iteam a{
+   color: black;
+    text-decoration: none;
+    padding: 20px 15px;
+    display: inline-block;
+}
+.main-menu-iteam:hover a{
+    color: white;
+    background-color: royalblue;
+}
+.sub-menu{
+    margin: 0;
+    padding: 0;
+    border: 1px #f1f1f1;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 140px;
+    display: none;
+}
+.sub-menu-item{
+    list-style: none;
+    color: #808080;
+    padding: 10px 15px;
+    position: relative;
+}
+.sub-menu-item:hover{
+    color: white;
+    background-color: #1c4fd3;
+}
+.main-menu-iteam:hover > .sub-menu{
+    display: block;
+    background: #b2b2b2;
+}
+.sub-menu-item > .sub-menu{
+    left: 100%;
+    top: 0;
+}
+.sub-menu-item:hover .sub-menu{
+    display: block;
+    background: silver;
+}
+.main-menu-iteam:before{
+    content: '';
+    border: 15px solid transparent;
+    border-top-color: royalblue;
+    position: absolute;
+    left: 20%;
+    bottom: -10px;
+}
+
+.fix{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 150px;
+    height: 100px;
+    background-color:transparent;
+}
+.sticky{
+    position: sticky;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 40px;
+    background-color: indianred;
+    z-index: 1;
+}
+.absolute{
+    position: absolute;
+    top: 110px;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    color: white;
+}
